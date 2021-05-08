@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SingleComment = (props) => {
-    console.log(props.name)
     return (
         <div className='comment'>
             <a href="/" className='avatar'>
@@ -9,7 +8,7 @@ const SingleComment = (props) => {
             </a>
             <div className='content'>
                 <a href="/" className='author'>
-                    {props.name}
+                    {props.fname}
                 </a>
                 <div className='metadata'>
                     <span className='date'>
